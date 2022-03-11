@@ -71,38 +71,171 @@
             display: flex;
             align-items: center;
             justify-content: center; 
-            font-size: 25px;
+            font-size: 35px;
             color: #fff;
          }
-         
-         
+         .landing_icons{
+             display: flex;
+             height: 200px;
+             margin-top: 50px;
+             justify-content: space-around;
+             
+         }
+         .landing_icons_icons_img{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             width: 210px;
+             height: 210px;
+             border: solid #000;
+             border-radius: 30px;
+         }
+         .landing_icons p {
+             font-size: 25px;
+             text-align: center;
+             border: 2px solid #4887bb ;
+             height: 30px;
+             border-radius: 20px;
+         }
+          .conteudo_sobre_nos{
+             display: flex;
+             background-color: #4887bb;
+             width: auto;
+             height: 150px;
+             justify-content: center;
+             margin-top: 130px;
+             
+         }
+         /* Sobre os desenvolvedores, div PAI */
+         .infosobrenos{
+            display: flex;
+            max-width: 100%;
+            /* background-color: aqua; */
+            height: 350px;
+         }
 
+        
+         /* Sobre Nós Escrita */
+         .conteudo_sobre_nos_int{
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            font-size: 35px;
+            color: #fff;
+         }
+         /* Div que comportara os cards dos dev */
+         .desc_dev{
+             display: flex;
+             max-width: 100%;
+             height: 400px;
+             background-color:#003866;
+             /* justify-content: space-around; */
+
+         }
+        .desc_dev .descint_retandev1 {
+            flex: 1;
+            display: flex;
+            height: 357px;
+            background-color: #fff;
+            border-radius: 25px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            justify-content: center;
+            
+        }
+        
+        .descint_retandev1 .descint_imgdev1{
+            display: flex;
+            max-width: 160px;
+            height: 160px;
+            background-color: #003866;
+            margin-top: 20px;
+                     
+        }
+        .descint_retandev1 .descint_imgdev1 img{
+            border-radius: 100%;
+            /* margin-left: -1000px    */
+            margin-left: -600px   
+        }
+
+        .desc_dev .descint_retandev2 {
+            display: flex;
+            flex: 1;
+            height: 357px;
+            background-color: #fff;
+            border-radius: 25px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+       
+       
+       
     </style>
 </head>
 <body>
     <header>
-        <div class="head_principal">
-            <!-- Logo -->
-            <div class="head_principal_logo">
-                Echosoft
-            </div>
-            <!-- Menus -->
-            <div class="head_principal_menu">
-                <nav >
-                    <ul>
-                        
-                        <li>Contato</li>
-                    </ul>
+            <div class="head_principal">
+                <!-- Logo -->
+                <div class="head_principal_logo">
+                    Echosoft
+                </div>
+                <!-- Menus -->
+                <div class="head_principal_menu">
+                    <nav >
+                        <ul>
+                            <li>Blog</li>
+                            <li>Contato</li>
+                        </ul>
 
-                </nav>
+                    </nav>
+                </div>
             </div>
-        </div>
+    </header>
         <aside id="banner" ></aside>
         <section class="conteudo">
             <div class="conteudoint">
-                <p>Como uma Landing Page irá ajudar meu negócio?</p>
-            </div>      
+                <h1>Como uma Landing Page irá ajudar meu negócio?</h1>
+            </div>     
         </section>
-    </header>
+        <section class="landing_icons">
+            <div class="landing_icons_icons">
+                <div class="landing_icons_icons_img">
+                    <img src="../img/material.gif" width=150>
+                </div>
+                <p>Materiais</p>
+            </div> 
+            <div class="landing_icons_icons">
+                <div class="landing_icons_icons_img">
+                    <img src="../img/material.gif" width=150>
+                </div>
+                <p>Produtos</p>
+            </div> 
+
+            <div class="landing_icons_icons">
+                <div class="landing_icons_icons_img">
+                    <img src="../img/material.gif" width=150>
+                </div>
+                <p>Serviços</p>
+            </div> 
+  
+        </section>
+        <section class="conteudo_sobre_nos">
+            <div class="conteudo_sobre_nos_int">
+                <h1>Sobre Nós</h1>
+            </div>     
+        </section>
+
+        <section class="desc_dev">
+            <!-- Pertence o retângulo_dev1 -->
+            <dev class="descint_retandev1">
+                <!-- Imagem do dev1 -->
+                <div class="descint_imgdev1">
+                    <img src="../img/fabricio.jfif" alt="">
+                </div>
+            </dev> 
+            <dev class="descint_retandev2"></dev>
+        </section>  
 </body>
 </html>
