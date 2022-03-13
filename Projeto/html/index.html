@@ -4,174 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesheets.css">
+    <link rel="stylesheet" href="../css/rodape.css">
     <title>Echosoft</title>
     <style>
-        body{
-            margin:0;
-            padding: 0;
-            height: 2200px;
-        }
         
-        .head_principal{
-            background-color: #003866;
-            max-width: 100%;
-            height: 150px;
-            display: flex;
-            justify-content: space-between;
-            
-        }
-        .head_principal_logo{
-            display: flex;
-            width: 200px;
-            align-items: center;
-            font-size:70px ;
-            color: #fff;
-            margin-left: 200px;
-        }
-        .head_principal_menu{
-          display: flex;
-          align-items: center;
-          margin-right: 300px;
-          color: #fff;    
-        }
-
-        nav ul,li{
-            list-style: none;
-            margin: 20px;
-            font-size: 30px;
-        }
-        nav ul{
-            display: flex;
-            
-
-        }
-        /* nav li:hover{
-            background-color: #dddddd;
-            color: #ffffff;
-        }
-         */
-
-          #banner{
-             display: flex;
-             background-image: url('../img/banner.jpg');
-             background-size: cover;
-             width: 100%;
-             height: 980px;
-             
-
-         }
-         .conteudo {
-             display: flex;
-             background-color: #4887bb;
-             width: auto;
-             height: 150px;
-             justify-content: center;
-         }
-         .conteudoint{
-            display: flex;
-            align-items: center;
-            justify-content: center; 
-            font-size: 35px;
-            color: #fff;
-         }
-         .landing_icons{
-             display: flex;
-             height: 200px;
-             margin-top: 50px;
-             justify-content: space-around;
-             
-         }
-         .landing_icons_icons_img{
-             display: flex;
-             align-items: center;
-             justify-content: center;
-             width: 210px;
-             height: 210px;
-             border: solid #000;
-             border-radius: 30px;
-         }
-         .landing_icons p {
-             font-size: 25px;
-             text-align: center;
-             border: 2px solid #4887bb ;
-             height: 30px;
-             border-radius: 20px;
-         }
-          .conteudo_sobre_nos{
-             display: flex;
-             background-color: #4887bb;
-             width: auto;
-             height: 150px;
-             justify-content: center;
-             margin-top: 130px;
-             
-         }
-         /* Sobre os desenvolvedores, div PAI */
-         .infosobrenos{
-            display: flex;
-            max-width: 100%;
-            /* background-color: aqua; */
-            height: 350px;
-         }
-
-        
-         /* Sobre Nós Escrita */
-         .conteudo_sobre_nos_int{
-            display: flex;
-            align-items: center;
-            justify-content: center; 
-            font-size: 35px;
-            color: #fff;
-         }
-         /* Div que comportara os cards dos dev */
-         .desc_dev{
-             display: flex;
-             max-width: 100%;
-             height: 400px;
-             background-color:#003866;
-             /* justify-content: space-around; */
-
-         }
-        .desc_dev .descint_retandev1 {
-            flex: 1;
-            display: flex;
-            height: 357px;
-            background-color: #fff;
-            border-radius: 25px;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            justify-content: center;
-            
-        }
-        
-        .descint_retandev1 .descint_imgdev1{
-            display: flex;
-            max-width: 160px;
-            height: 160px;
-            background-color: #003866;
-            margin-top: 20px;
-                     
-        }
-        .descint_retandev1 .descint_imgdev1 img{
-            border-radius: 100%;
-            /* margin-left: -1000px    */
-            margin-left: -600px   
-        }
-
-        .desc_dev .descint_retandev2 {
-            display: flex;
-            flex: 1;
-            height: 357px;
-            background-color: #fff;
-            border-radius: 25px;
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-        }
-       
-       
-       
+     
     </style>
 </head>
 <body>
@@ -232,10 +70,39 @@
             <dev class="descint_retandev1">
                 <!-- Imagem do dev1 -->
                 <div class="descint_imgdev1">
+
+                    <img src="../img/gabriel.jfif" alt="">
+                </div>
+                <!-- Contendo o titulo e a descrição do dev1 -->
+                <div class="descint_titulo_text">
+                    <h1>Gabriel dos Anjos</h1>
+                    <div class="descint_texto">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium saepe dolorum, amet sint assumenda mollitia consequuntur natus modi, laboriosam dolores esse molestias doloremque recusandae provident praesentium odit consectetur. Tempore, dolorem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus totam, error facilis voluptatum dicta sapiente blanditiis corporis aperiam. Modi accusantium, exercitationem unde ratione id debitis similique illo quae possimus odio!</p>
+                    </div>
+                </div>
+                
+            </dev> 
+            <dev class="descint_retandev2">
+                <!-- Imagem do dev2 -->
+                <div class="descint_imgdev1">
+
                     <img src="../img/fabricio.jfif" alt="">
                 </div>
-            </dev> 
-            <dev class="descint_retandev2"></dev>
+                <!-- Contendo o titulo e a descrição do dev2 -->
+                <div class="descint_titulo_text">
+                    <h1>Fabricio Gomes</h1>
+                    <div class="descint_texto">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium saepe dolorum, amet sint assumenda mollitia consequuntur natus modi, laboriosam dolores esse molestias doloremque recusandae provident praesentium odit consectetur. Tempore, dolorem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus totam, error facilis voluptatum dicta sapiente blanditiis corporis aperiam. Modi accusantium, exercitationem unde ratione id debitis similique illo quae possimus odio!</p>
+                    </div>
+                </div>
+            </dev>
         </section>  
+        <footer class="rodape">
+            <p>Desenvolvido por Gabriel e Fabricio</p>
+        </footer>
+        
+       
 </body>
 </html>
