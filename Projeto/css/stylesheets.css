@@ -1,0 +1,239 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 2200px;
+}
+
+.head_principal{
+    background-color: #003866;
+    max-width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head_principal_logo{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    font-size:70px ;
+    color: #fff;
+    margin-left: 200px;
+}
+.head_principal_menu{
+  display: flex;
+  align-items: center;
+  margin-right: 300px;
+  color: #fff;    
+}
+
+nav ul,li{
+    list-style: none;
+    margin: 20px;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    
+
+}
+
+
+  #banner{
+     display: flex;
+     background-image: url('../img/banner.jpg');
+     background-size: cover;
+     width: 100%;
+     height: 980px;
+     
+
+ }
+ .conteudo {
+     display: flex;
+     background-color: #4887bb;
+     width: auto;
+     height: 150px;
+     justify-content: center;
+ }
+ .conteudoint{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 35px;
+    color: #fff;
+ }
+ .landing_icons{
+     display: flex;
+     height: 200px;
+     margin-top: 50px;
+     justify-content: space-around;
+     
+ }
+ .landing_icons_icons_img{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 210px;
+     height: 210px;
+     border: solid #000;
+     border-radius: 30px;
+ }
+ .landing_icons p {
+     font-size: 25px;
+     text-align: center;
+     border: 2px solid #4887bb ;
+     height: 30px;
+     border-radius: 20px;
+ }
+  .conteudo_sobre_nos{
+     display: flex;
+     background-color: #4887bb;
+     width: auto;
+     height: 150px;
+     justify-content: center;
+     margin-top: 130px;
+     
+ }
+
+ /* Texto Sobre Nos*/
+ .conteudo_sobre_nos_int{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 35px;
+    color: #fff;
+ }
+
+ /* Sobre os desenvolvedores, div PAI */
+ .infosobrenos{
+    display: flex;
+    max-width: 100%;
+    height: 350px;
+ }
+
+ /* Div que comportara os cards dos dev */
+ .desc_dev{
+     display: flex;
+     max-width: 100%;
+     height: 400px;
+     /* background-color:#003866; */
+     justify-content: center;
+    
+
+ }
+.desc_dev .descint_retandev1 {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #003866;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    
+}
+
+.descint_retandev1 .descint_imgdev1{
+    display: flex;
+    max-width: 160px;
+    height: 160px;
+    margin-top: 50px;
+  
+    
+             
+}
+.descint_retandev1 .descint_imgdev1 img{
+    display: flex;
+    margin-left: 10px;
+    border-radius: 100%;   
+   
+    
+}
+
+.descint_titulo_text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* font-size: 25px; */
+    height: 25px;
+
+    
+}
+.descint_titulo_text h1 {
+    margin-left: 7px;
+}
+
+.descint_titulo_text .descint_texto {
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.descint_titulo_text .descint_texto p {
+    display: flex;
+    margin-top: -10px;
+    margin-left: 15px;
+   
+}
+
+
+.desc_dev .descint_retandev2 {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    background-color: #fff;
+    border: 2px solid #003866;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    
+}
+
+.descint_retandev2 .descint_imgdev1{
+    display: flex;
+    max-width: 160px;
+    height: 160px;
+    margin-top: 50px;
+  
+    
+             
+}
+.descint_retandev2 .descint_imgdev1 img{
+    display: flex;
+    margin-left: 10px;
+    border-radius: 100%;   
+   
+    
+}
+
+.descint_titulo_text{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-left: 20px;
+    /* font-size: 25px; */
+    height: 25px;
+
+    
+}
+.descint_titulo_text h1 {
+    margin-left: 7px;
+}
+
+.descint_titulo_text .descint_texto {
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+.descint_titulo_text .descint_texto p {
+    display: flex;
+    margin-top: -10px;
+    margin-left: 15px;
+   
+}
