@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//assets/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .row [class^=col],
+        .row .col {
+            background-color: #ddd;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <!-- Criar um botão -->
+            <!-- dropdown-toggle - É onde habilita a flecha indicando que tem opções para escolher 
+                 data-toggle-dropdown -> É o responsável por quando clicar aparece e quando clicar novamente sumir
+            -->
+            <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Login</a>
+            <div class="dropdown-menu">
+                <form action="" method="post">
+                    Login: <br>
+                    <input type="text" name="Usuario">
+                    <br>
+                    Senha: <br>
+                    <input type="password" name="Senha">
+                </form>
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../assets/Bootstrap_projeto/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Este daqui que faz o efeito de desaparecer -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
