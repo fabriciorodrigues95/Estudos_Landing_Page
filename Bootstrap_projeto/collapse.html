@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//assets/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+         .row [class^=col], .row .col{
+            background-color: #ddd;
+            border: 1px solid #ccc;
+        }
+        #area, #area1{
+            border: 1px solid #000;
+            border-radius: 10px;
+            padding: 20px;
+            
+            background-color: #eee;
+        }
+        div#area,div#area1 {
+             margin-top: 11px;
+             margin-bottom: 11px;
+            }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <!-- Aqui faz o texto para sumir e aparecer -->
+       <button class="btn btn-primary" data-toggle="collapse" data-target="#area">
+            Saiba Mais
+       </button>
+       <div id="area" class="collapse">
+            <p>Texto escondido que vai aparecer</p>   
+       </div>
+        <!-- Aqui faz o texto para sumir e aparecer -->
+        <button class="btn btn-primary" data-toggle="collapse" data-target="#area1">
+            Saiba Mais
+       </button>
+       <div id="area1" class="collapse">
+            <p>Segundo texto</p>   
+       </div>
+   </div>
+      
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/Bootstrap_projeto/assets/js/bootstrap.bundle.min.js"></script> 
+    <!-- Este daqui que faz o efeito de desaparecer -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
