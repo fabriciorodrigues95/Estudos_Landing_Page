@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//assets/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .row [class^=col],
+        .row .col {
+            background-color: #ddd;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="post">
+        E-mail: <br><br>
+        <input type="text" name="Email">
+        <br>
+        <br>
+        Senha: <br><br>
+        <input type="password" name="Senha">
+        <br><br>
+        <input type="submit" name="Enviar">
+
+    </form>
+    <!-- Linha horizontal -->
+    <hr>
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="my-input">Email</label>
+            <input id="my-input" class="form-control" type="email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input id="senha" class="form-control" type="password" name="password">
+        </div>
+        <div class="form-group">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+        </div>
+    </form>
+    <hr>
+    <!-- Outra técnica de se usar placeholder -->
+    <form action="" method="post">
+        <div class="form-group">
+
+            <input class="form-control" type="email" name="email" placeholder="email">
+        </div>
+        <div class="form-group">
+
+            <input class="form-control" type="password" name="password" placeholder="senha">
+        </div>
+        <div class="form-group">
+            <input class="btn btn-primary" type="submit" value="Enviar">
+        </div>
+    </form>
+    <hr>
+    <!-- Aumentando ou diminuindo o tamanho dos campos -->
+    <form action="" method="post">
+        <div class="form-group">
+            <!-- Deixar o campo já preenchido e somente leitura, usando o value="" readonly -->
+            <input class="form-control form-control-sm" type="email" name="email" placeholder="email"
+                value="suporte@b7web.com.br" readonly>
+        </div>
+
+
+        <div class="form-group">
+
+            <input class="form-control form-control-lg" type="password" name="password" placeholder="senha">
+        </div>
+
+
+        <div class="form-group">
+            <!-- Aqui ele parece um texto mas quando clico ele deixar editar -->
+            <input class="form-control form-control-lg form-control-plaintext" type="number" name="number"
+                placeholder="numero">
+        </div>
+
+
+        <div class="form-group">
+            <!-- Aqui ele parece um texto e só leitura -->
+            <input class="form-control form-control-lg form-control-plaintext" type="number" name="number"
+                placeholder="numero" readonly>
+        </div>
+
+        <div class="form-group">
+
+            <input class="btn btn-primary" type="submit" value="Enviar">
+
+        </div>
+    </form>
+    <hr>
+    
+    <!-- Utilizando formulario do tipo inline -->
+    <form action="" method="post" class="form-inline">
+        <div class="form-group">
+            <label for="my-input">Text</label>
+            <input id="my-input" class="form-control" type="text" name="">
+        </div>
+        <div class="form-group">
+            <label for="my-input">Senha:</label>
+            <input id="my-input" class="form-control" type="password" name="Senha:">
+        </div>
+    </form>
+
+    <hr>
+    <form action="" method="post">
+        <div class="form-row">
+            <div class="col">
+                <div class="form-group">
+                    <label for="my-input">Nome</label>
+                    <input id="my-input" class="form-control" type="text" name="Nome" placeholder="Nome Completo:">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="my-input">Text</label>
+                    <input id="my-input" class="form-control" type="text" name="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-group">
+                    <label for="my-input">Senha:</label>
+                    <input id="my-input" class="form-control" type="password" name="Senha:">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="form-group">
+                    <input type="submit" value="Entrar" class="btn btn-primary">
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/Bootstrap_projeto/assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Este daqui que faz o efeito de desaparecer -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
